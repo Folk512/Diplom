@@ -103,7 +103,7 @@ def receive_share():
 btn_frame = tk.Frame(root)
 btn_frame.pack(pady=10)
 
-tk.Button(btn_frame, text="📥 Приём доли", command=receive_share, width=40).grid(row=0, column=0, padx=10)
-tk.Button(btn_frame, text="📤 Отправка доли", command=send_share, width=40).grid(row=0, column=1, padx=10)
+tk.Button(btn_frame, text=" Приём доли", command=receive_share, width=40).grid(row=0, column=0, padx=10)
+tk.Button(btn_frame, text=" Отправка доли", command=send_share, width=40).grid(row=0, column=1, padx=10)
 
 root.mainloop()
